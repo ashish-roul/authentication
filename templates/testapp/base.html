@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">IT EXAMS</a>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/c">C Exams</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/java">Java Exam</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/python">Python Exam</a>
+          </li>
+        </ul>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="/signup">Signup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/accounts/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/accounts/logout">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    {% block bodyblock %}
+    {% endblock %}
+  </body>
+</html>
