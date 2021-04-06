@@ -28,7 +28,7 @@ SECRET_KEY = '3-vqhu))$=@1wb8%b*la^_ond!5!*miij95q-_op#f380o0cjq'
 DEBUG = False
 
 ALLOWED_HOSTS = []
-
+creator = models.ForeignKey(User, on_delete=models.CASCADE)
 
 # Application definition
 
